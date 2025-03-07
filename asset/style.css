@@ -104,6 +104,16 @@ body {
       max-width: 80%; /* Giới hạn kích thước ảnh */
   }
 }
+@media screen and (max-width: 768px) {
+    canvas {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .heart-shape {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
 
 
 
